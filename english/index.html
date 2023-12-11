@@ -8,13 +8,37 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/translate.css">
+    <link rel="stylesheet" href="/css/animation.css">
 
 
 </head>
 
 
 <body>
-   
+    <div class="animation">
+        <div class="bubbles">
+            <span style="--i:11;"></span>
+            <span style="--i:12;"></span>
+            <span style="--i:24;"></span>
+            <span style="--i:10;"></span>
+            <span style="--i:14;"></span>
+            <span style="--i:23;"></span>
+            <span style="--i:18;"></span>
+            <span style="--i:16;"></span>
+            <span style="--i:19;"></span>
+            <span style="--i:20;"></span>
+            <span style="--i:22;"></span>
+            <span style="--i:25;"></span>
+            <span style="--i:18;"></span>
+            <span style="--i:21;"></span>
+            <span style="--i:15;"></span>
+            <span style="--i:13;"></span>
+            <span style="--i:26;"></span>
+            <span style="--i:17;"></span>
+            <span style="--i:13;"></span>
+            <span style="--i:28;"></span>
+            
+        </div>
     
 
     <i class='iconShowMenu bx bx-menu'></i>
@@ -34,11 +58,7 @@
             <li><a class="link"  href="#portfolio">Portfolio</a></li>
             <li><a class="link"  href="#contact">contact</a></li>
             <li class="iconTheme">🌞</li>
-            <div class="whatsapp">
-                <a href="https://wa.me/+573238592198" target="_blank" rel="noopener noreferrer">
-                    <img src="/public/icons/whatsapp .png" alt="WhatsApp">
-                </a>
-            </div>
+           
           
            
         </ul>
@@ -46,8 +66,10 @@
 
     <main class="container__principal">
         <section id="home" class="hidden">
-          <h1 class="home_title">Hello, my name is <span class="span__h1"> Esteban Ruiz</span>  I am a developer<span class="span__h1">full stack </span></h1>
-          <button type="button">
+         <div class="box__first">
+            <h1 class="home_title">Hello <br> I am a developer <span class="span__h1">< Full Stack /></span> My name is<span class="span__h1">[Esteban Ruiz] </span></h1>
+         </div>
+          <button class="btn__contac" type="button">
               <a href="#contact"><img src="/public/icons/mail.svg" alt="icono de mail"> Contact me</a>
             </button>
         </section>
@@ -159,7 +181,7 @@
                         alt="icono github"></a>
                     <a class="icons__red" href="https://mail.google.com/mail/u/1/#sent?compose=new"
                     target="noopener"><img src="/public/icons/gmail-icon.svg" alt="icono Gmail"></a>
-                    <a class="icons__red" href="" target="noopener"><img src="/public/icons/phone.svg" alt="icono Gmail"></a>
+                    <a class="icons__red" href="tel:+573238592198" target="noopener"><img src="/public/icons/1831922-2196f3.svg" alt="icono Gmail"></a>
                   </div>
             </form>
         </section>
@@ -169,6 +191,7 @@
             <img src="/public/icons/whatsapp .png" alt="WhatsApp">
         </a>
     </div>
+    
    
     <script  src="/js/main.js"></script>
     <script src="/js/translate.js"></script>
