@@ -55,8 +55,8 @@
 
 .whatsapp-button {
     position: fixed;
-    bottom: 20px;
-    right: 20px;
+    bottom: 30px;
+    right: 30px;
     background-color: #25d366; /* Color de fondo de WhatsApp */
     border-radius: 50%;
     padding: 10px;
@@ -69,5 +69,5 @@
 }
 
 .whatsapp-button img {
-    width: 40px; /* Ajusta el tamaño de la imagen según sea necesario */
+    width: 40px;
 }
