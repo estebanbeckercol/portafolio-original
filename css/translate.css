@@ -71,4 +71,6 @@
 .whatsapp-button img {
     width: 40px;
 }
-
+.whatsapp{
+    display: none;
+}
