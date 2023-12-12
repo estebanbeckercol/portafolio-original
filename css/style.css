@@ -59,23 +59,34 @@
     }
     section>button a {
         display: flex;
+        flex-direction: row;
         justify-content: center;
         align-items: center;
         column-gap: 1em;
         color: var(--color-font);
         font-weight: 600;
         font-size: 1.8vh;
+    
+      }
+      .a__btn{
+        display: flex;
+        align-items: center;
+      }
+      .img__btn{
+       display: flex;
+       justify-content:center;
+       text-align: center;
       }
     .btn__contac{
-        width: 10rem;
+        width: 8rem;
         display: flex;
-        flex-direction: row;
         justify-content: center;
         align-items: center;
+        text-align: center;
         background-color:var(--color-principal);
         border-radius: 6px;
         border: none;
-        height: 6.5vh;
+        height: 2.5rem;
         cursor: pointer;
         transition: transform 0.5s, box-shadow 0.5s, filter 0.5s;
     }
